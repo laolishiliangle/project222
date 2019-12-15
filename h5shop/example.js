@@ -8,7 +8,7 @@
  * Created by jf on 2015/9/11.
  * Modified by bear on 2016/9/7.uhkjhjhkjhk 000000044 
  * hbh 206768678
- * 12345678
+ * 12345678  808080808008
  */
 $(function () {
     var pageManager = {
