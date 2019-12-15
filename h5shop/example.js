@@ -1,6 +1,6 @@
 /**
  * Created by jf on 2015/9/11.
- * Modified by bear on 2016/9/7.uhkjhjhkjhk 
+ * Modified by bear on 2016/9/7.uhkjhjhkjhk 000000044
  */
 $(function () {
     var pageManager = {
