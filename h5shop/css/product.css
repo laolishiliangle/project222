@@ -1,0 +1,195 @@
+*{list-style: none;
+}
+body{
+    background: #f1ecec;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+.productgrid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0em;
+}
+
+.proLi{
+    width: 48%;
+    height:20em;
+    margin: 0.5%;
+    background: white
+}
+.proP{
+    color: black;font-size: 1.8em;
+}
+
+.proPrice{
+    color: orange;font-size: 1.4em;
+}
+
+.rightBtn{
+    right: 8px;
+    top: 5px;
+    position: absolute;
+}
+.smallImage{
+    width: 100px;
+    height: 100px;
+    left: 2px;
+}
+
+.proImage{
+    width: 100%;
+    height: 15em;
+}
+.redBtn
+{
+    background-color: #4ddb70;
+    width: 9em;
+   display: inline;
+  position: absolute;
+  margin-left: 10em;
+  margin-top: 1em;
+display: none
+}
+.buy{
+     width: 9em;
+     display: inline;
+     position: absolute;
+   margin-top: 3em;
+   display: none
+}
+.hot{
+    color: orangered;
+    font-size: 1.2em;
+    margin-left: 2em
+}
+
+.weui-tabbar{
+
+    position:fixed; left:0px; bottom:0px; width:100%;
+}
+.page__desc{
+    color: red
+} 
+#title1,.page__desc{
+   margin-left: 1em;
+}
+.page__title{
+    margin-left: 0.5em
+}
+.weui-article .title{
+    font-size: 1.4em
+}
+.aikan,.dingji,.daniu,.wuxing{
+    display: inline-block;
+}
+.weui-article .dingji{
+    margin-left: 2.5em;
+}
+.weui-article .wuxing{
+      margin-left: 2.5em
+}
+.weui-article .white{
+    width: 100%;
+    height: 0.5em;
+    background-color: white;
+    margin-left: 1em;
+    padding-left: -2em;
+    /* padding-right: -3em */
+}
+#box1 ul,
+#box1 li {
+    list-style: none;
+}
+
+#box1 {
+    width: 100%;
+    height: 20em;
+    border: 1px solid #ccc;
+    margin: 5em auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#box1 ul {
+    width: 100%;
+    height: 20em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#box1 ul li {
+    width: 100%;
+    height: 20em;
+    float: left;
+}
+
+#box1 .page1 {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+}
+
+#box1 .page1 span {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: #ccc;
+    vertical-align: top;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+#box1 .page1 span.active {
+    background: red;
+}
+#xiang{
+    font-size: 1.4em;
+   color: orangered;
+   font-weight: bold;
+   margin-left: 1em;margin-bottom: 2em
+}
+#tu2{
+    display: flex;
+    width:100% ;
+    margin-top: 2em;margin-bottom: 2em ;
+    justify-content: space-between
+}
+.img2{
+    margin-left: 2em
+}
+.img1,.img2{
+    font-size: 1.3em
+}
+.pro1,.pro2{
+   text-align: center;
+   font-size: 1.3em;
+   font-weight: bold
+}
+.pro2{
+    border-bottom: 2px dashed gray
+}
+.ul2{
+    margin-top: 1em;margin-bottom: 2em
+}
+.img3{
+    font-size: 1.3em;
+    margin-left: 3em
+}
+#tu3{
+    display: flex;
+    width:100% ;
+    margin-top: 2em;margin-bottom: 2em ;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.img3{font-size: 1.1em}

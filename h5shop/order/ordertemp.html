@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>订单</title>
+
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="../js/zepto.min.js"></script>
+    <link rel="stylesheet" href="../css/weui.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <script src="../js/productinfo.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+
+
+<body>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">Half-screen Dialog</h1>
+        <p class="page__desc">半屏组件</p>
+    </div>
+    <div class="page__bd page__bd_spacing">
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog1">样式一</a>
+
+    </div>
+
+
+    <div id="dialogs">
+        <!--BEGIN dialog1-->
+        <div class="js_dialog" id="iosDialog1" style="display: none;">
+            <div class="weui-mask"></div>
+            <div id="js_dialog_1" class="weui-half-screen-dialog">
+                <div class="weui-half-screen-dialog__hd">
+                    <div class="weui-half-screen-dialog__hd__side">
+                        <button class="weui-icon-btn weui-icon-btn_close">关闭</button>
+                    </div>
+                    <div class="weui-half-screen-dialog__hd__main">
+                        <strong class="weui-half-screen-dialog__title">标题</strong>
+                    </div>
+                </div>
+                <div class="weui-half-screen-dialog__bd">
+                    <br>
+                    <br>
+                    可放自定义内容
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!--END dialog1-->
+        <!--BEGIN dialog2-->
+
+    </div>
+</div>
+</body>
+
+
+<script type="text/javascript">
+    $(function(){
+        var $dialog1 = $('#js_dialog_1'),
+            $iosDialog1 = $('#iosDialog1');
+        $('#dialogs').on('click', '.weui-mask', function(){
+            $(this).parents('.js_dialog').fadeOut(200);
+            $dialog1.removeClass('weui-half-screen-dialog_show');
+
+        });
+        $('#showIOSDialog1').on('click', function(){
+            $iosDialog1.fadeIn(200);
+            $dialog1.addClass('weui-half-screen-dialog_show');
+        });
+
+    });
+</script>
+
+
+</html>
