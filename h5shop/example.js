@@ -9,8 +9,8 @@
  * Modified by bear on 2016/9/7.uhkjhjhkjhk 000000044 
  * hbh 206768678
  * 12345678  808080808008
- * 12346586骨哈哈哈哈
- * iu回归i贵u给i贵u给
+ * 12346586骨哈哈哈哈    222222222222222222
+ * iu回归i贵u给i贵u给    
  */
 $(function () {
     var pageManager = {
